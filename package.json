@@ -42,15 +42,15 @@
       "last 1 safari version"
     ]
   },
-  "node-main": "server.js",
-  "main": "http://localhost:3000",
+  "main": "index.html",
   "node-remote": "http://localhost:3000",
+  "nodejs" : true,
   "nwBuilder": {
     "//": "https://github.com/nwjs-community/nw-builder",
     "platforms": [
       "win64"
     ],
-    "version": "0.55.0",
+    "version": "latest",
     "flavor": "normal",
     "buildDir": "./build",
     "cacheDir": "./cache",
